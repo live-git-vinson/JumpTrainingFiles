@@ -36,9 +36,6 @@ public class BlackJackValues {
 		for (PlayingCard card : hand) {
 			
 			cardsInHand.add(card.value);
-//			System.out.println(card.value);
-//			System.out.println(deck);
-//			System.out.println(deck.get(card.value));
 			
 			sum += deck.get(card.value);
 			
